@@ -24,7 +24,7 @@ struct Gui
     RECT gridCoordinates;
     RECT Rect;
 };
-
+/*Struct pointer to store to store both Gui and Game Struct*/
 struct PointerStruct
 {
     struct Game *s1;
