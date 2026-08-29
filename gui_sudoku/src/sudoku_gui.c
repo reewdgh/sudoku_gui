@@ -227,7 +227,7 @@ void handleDifficultyButtons(int buttonID, HWND *difficultyButtons, struct Game 
     /*If button id is in the range of LEVEL_COUNT count then fill with zero according to selected levels*/
     if (buttonID <= LEVEL_COUNT)
     {
-        fillWithZero(buttonID * 1, s1);
+        fillWithZero(buttonID * 3, s1);
     }
     /*Destory the buttons*/
     for (int i = 0; i < LEVEL_COUNT; i++)
